@@ -1,0 +1,36 @@
+[project]
+name = "jarvis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "addict>=2.4.0",
+    "autogen-agentchat>=0.5.1",
+    "autogen-core>=0.5.1",
+    "autogen-ext[deepseek,openai]>=0.5.1",
+    "datasets<3",
+    "edge-tts>=7.0.1",
+    "fastmcp>=2.2.0",
+    "funasr>=1.2.6",
+    "json-schema-to-pydantic>=0.2.4",
+    "langchain>=0.3.22",
+    "langchain-chroma>=0.1.2",
+    "langchain-community[embeddings]>=0.3.20",
+    "langchain-core>=0.3.49",
+    "langchain-openai>=0.3.11",
+    "langchain-text-splitters>=0.3.7",
+    "modelscope>=1.15.0",
+    "numpy>=1.26.4",
+    "pillow>=11.1.0",
+    "pyaudio==0.2.14",
+    "pygame>=2.6.1",
+    "scipy>=1.15.2",
+    "simplejson>=3.20.1",
+    "sortedcontainers>=2.4.0",
+    "sounddevice>=0.5.1",
+    "torch>=2.3.1",
+    "torchaudio>=2.3.1",
+    "webrtcvad==2.0.10",
+    "zhipuai>=2.1.5.20250415",
+]

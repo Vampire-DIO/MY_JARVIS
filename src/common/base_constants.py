@@ -1,0 +1,4 @@
+PLAY_AUDIO_PATH = ""
+SPEAK_AUDIO_PATH = ""
+
+IS_RUNNING = True
