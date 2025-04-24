@@ -10,3 +10,5 @@ wheels/
 .venv
 /audio
 *.wav
+.idea
+.python-version
